@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel='icon' href='https://dosto.ca/storage/users/favicon/favicon-32x32.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HOME VIDEO</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<style>
+
+  body {
+    margin: 0;
+    min-width: 280px;
+  }
+
+  /* HERO WRAP VIDEO BEGINS */
+  .dos-wrap video {
+    width: 100%;
+    height: 960px; /* OR COMMENT OUT FOR FULL HEIGHT */
+    object-fit: cover;
+  }
+
+  .dos-hero-btn {
+    font-family: Montserrat;
+    font-weight: 900;
+    margin: 40px 0 0 45px;
+  }
+
+  .dos-hero-btn-2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    margin: 40px 75px 0 0px;
+    float: right;
+  }
+
+  .dos-hero-btn-2 .fas {
+    margin: 0 0 0 10px;
+  }
+
+  .dos-hero-btn a:link,
+  .dos-hero-btn a:visited,
+  .dos-hero-btn-2 a:link,
+  .dos-hero-btn-2 a:visited {
+    background: #FEB84D;
+    background: linear-gradient(to right, #e19a30 30%, rgba(161, 128, 79, 0.01) 100%);
+    color: white !important;
+    border: 0 solid #fff !important;
+    border-radius: 0 !important;
+    font-size: 22px !important;
+    padding: 10px 30px !important;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    text-shadow: 2px 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .dos-hero-btn a:hover,
+  .dos-hero-btn-2 a:hover,
+  .dos-hero-btn a:focus,
+  .dos-hero-btn-2 a:focus {
+    /* background: #FEB84D;
+    background: linear-gradient(to left, #e19a30 30%, rgb(254, 184, 77, .7) 100%);
+    text-decoration: none !important;
+    border: 0 solid white !important;
+    text-shadow: none; */
+
+    background-image: linear-gradient(to right,
+        #df5d06,
+        #834104 16.65%,
+        #F68B1D 16.65%,
+        #F68B1D 33.3%,
+        #938a06 33.3%,
+        #635d02 49.95%,
+        #009E4F 49.95%,
+        #009E4F 66.6%,
+        #046878 66.6%,
+        #02515d 83.25%,
+        #732982 83.25%,
+        #732982 100%,
+        #E7484F 100%);
+    animation: slidebg 2s linear infinite;
+  }
+
+  @keyframes slidebg {
+    to {
+      background-position: 20vw;
+    }
+  }
+  
+
+  .dos-wrap {
+    background-color: transparent;
+    line-height: 0;
+  }
+
+  .dos-hero-container {
+    position: relative;
+    text-align: left;
+    color: white;
+    /* min-width: 280px; */
+    background: black !important;
+  }
+
+  .dos-hero {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+  }
+
+  .dos-hero-title {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 25px 0 0 45px;
+    max-width: 400px;
+    text-shadow: 0 4px 26px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+  }
+
+  .dos-hero-img img {
+    max-width: 452px;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1680px) {
+    .dos-hero-img img {
+      max-width: 350px;
+    }
+
+    .dos-hero-title {
+      max-width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    .dos-hero-img img {
+      max-width: 250px;
+    }
+
+    .dos-hero-title {
+      font-size: 16px;
+      text-align: left;
+      letter-spacing: 0px;
+      font-weight: 500;
+    }
+
+    .dos-hero {
+      bottom: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .dos-hero-title {
+      max-width: 200px;
+      font-size: 16px;
+    }
+
+    .dos-hero-img img {
+      max-width: 235px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .dos-wrap video {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+    }
+
+    .dos-hero {
+      bottom: 60px;
+    }
+
+    .dos-hero-btn a:link,
+    .dos-hero-btn a:visited,
+    .dos-hero-btn-2 a:link,
+    .dos-hero-btn-2 a:visited {
+      border-radius: 0 !important;
+      font-size: 18px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .dos-hero {
+      text-align: center;
+      bottom: 45px;
+    }
+
+    .dos-hero-img img {
+      max-width: 150px;
+    }
+
+    .dos-hero-title {
+      max-width: 280px;
+      font-size: 14px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .dos-hero-btn {
+      margin: 30px 0 0 0px;
+    }
+
+    .dos-hero-btn-2 {
+      margin: 30px 0 20px 0;
+      float: none;
+    }
+  }
+
+  @media only screen and (max-width: 999px) {
+    .dos-hero-btn {
+      margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .dos-hero-img img {
+      max-width: 100px;
+    }
+
+    .dos-wrap video {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .dos-wrap video {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+
+    .dos-hero-btn {
+      margin: 40px 0 20px 0px;
+    }
+  }
+</style>
+
+<body>
+
+  <div class="dos-hero-container">
+    <div class="dos-wrap">
+      <video class="" width="100%" height="NaN" loop="true" autoplay="autoplay" muted playsinline
+        poster="dos-img/dos-hero.jpg" class="dotm-overlay">
+        <source src="dos-vid/dosto.mp4" type="video/mp4">
+    </div>
+    <div>
+      <div class="dos-hero">
+        <div class="dos-hero-img">
+          <img src="dos-img/dos-hero-icon.svg">
+        </div>
+
+        <div class="dos-hero-title">To whom much is given, much is required. Welcome to the revolution.
+        </div>
+
+        <div class="dos-hero-btn">
+          <a href="https://dosto.ca/login">Sign-up Now</a>
+        </div>
+
+        <div class="dos-hero-btn-2">
+          <a href="/">Explore <i class="fas fa-chevron-up"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
