@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DOSTO History</title>
+  <meta charset="utf-8">
+  <link rel='icon' href='https://dosto.ca/storage/users/favicon/favicon-32x32.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');
+
+
+  body {
+    margin: 0 auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 100%;
+    min-width: 267px;
+  }
+
+  .dos-hist-main {
+    background: #fff;
+    padding: 120px 75px;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .dos-hist-main-2 {
+    background: #FFF6FA;
+    padding: 120px 75px;
+  }
+
+  .dos-hist-card {
+    background-color: transparent;
+    color: white;
+    border: solid 0px #252527;
+    grid-column: span 1;
+  }
+
+  .dos-hist-card img {
+    max-width: 400px;
+  }
+
+  .dos-hist-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dos-hist-card p {
+    font-family: Open Sans, Montserrat, sans-serif;
+    font-size: 18px;
+    color: #000 !important;
+    /* text-align: center; */
+    padding: 20px 45px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
+  .dos-hist-card h6 {
+    color: #3D5445;
+    font-size: 65px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .dos-hist-header {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #252527;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -122px;
+  }
+
+  .dos-hist-header-2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #ffedcf;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+  }
+
+  .dos-hist-header-sm {
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #252527;
+    line-height: 1.1em;
+    text-align: center;
+    padding: 10px 0 0 0;
+    letter-spacing: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .dos-hist-header-sm p {
+    padding: 10px 0 45px 0;
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: 18px;
+  }
+
+  @media (min-width: 999px) {
+    .dos-hist-cards {
+      grid-template-columns: repeat(1, 1fr 3fr);
+    }
+  }
+
+  @media (max-width: 998px) {
+    .dos-hist-cards {
+      gap: 0px;
+    }
+
+    .dos-hist-header-sm p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .dos-hist-card p {
+      text-align: center;
+    }
+
+    .dos-rmv {
+      display: none;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .dos-hist-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dos-hist-card img {
+      max-width: 100%;
+    }
+
+    .dos-hist-header-sm {
+      padding-bottom: 0px;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .dos-hist-header-2 {
+      font-size: 90px;
+    }
+
+    .dos-hist-header {
+      margin-top: -95px;
+    }
+
+    .dos-hist-card p {
+      padding: 0px 0 45px 0 !important;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .dos-hist-main {
+      padding: 75px 35px;
+    }
+
+    .dos-hist-header {
+      margin-top: -80px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .dos-hist-header-2 {
+      font-size: 70px;
+      letter-spacing: 0;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .dos-hist-header-sm {
+      letter-spacing: 0.75rem;
+      font-size: 20px;
+    }
+
+    .dos-hist-header-2 {
+      font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .dos-hist-header-2 {
+      font-size: 40px;
+      letter-spacing: 7px;
+    }
+
+    .dos-hist-header {
+      margin-top: -65px;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+    .dos-hist-header-2 {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .dos-hist-header {
+      font-size: 35px;
+    }
+
+    .dos-hist-header-sm {
+      letter-spacing: 0.25rem;
+    }
+  }
+
+  @media only screen and (max-width: 336px) {
+    .dos-hist-header-2 {
+      letter-spacing: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 325px) {
+    .dos-hist-header {
+      font-size: 28px;
+    }
+
+    .dos-hist-header-sm {
+      letter-spacing: 0.25rem;
+    }
+  }
+
+  @media only screen and (max-width: 319px) {
+    .dos-hist-header-2 {
+      letter-spacing: 0;
+    }
+  }
+</style>
+
+<!-- About History-->
+
+<div class="dos-hist-main">
+
+  <div class="dos-hist-header-2">About Dosto</div>
+  <div class="dos-hist-header">About Dosto</div>
+
+  <div class="dos-hist-header-sm">Some History</div>
+  <div class="dos-hist-header-sm">
+    <p>Dosto is a God given idea to revolutionize our society and provide a solution for those in need.</p>
+  </div>
+
+  <div class="dos-hist-cards">
+    <div class="dos-hist-card">
+      <h6><span class="dos-rmv">-</span> 2021</h6>
+    </div>
+
+    <div class="dos-hist-card">
+      <p>This year was really the beginning to the planning process. Ideas for flowing, visions were created and a
+        foundation was put down.</p>
+    </div>
+  </div>
+
+  <div class="dos-hist-cards">
+    <div class="dos-hist-card">
+      <h6><span class="dos-rmv">-</span> 2022</h6>
+    </div>
+
+    <div class="dos-hist-card">
+      <p>This year we went faith first into taking steps to expand our team and get the ball rolling even with a lack of
+        funds. </p>
+    </div>
+  </div>
+
+
+  <div class="dos-hist-cards">
+    <div class="dos-hist-card">
+      <h6><span class="dos-rmv">-</span> 2023</h6>
+    </div>
+
+    <div class="dos-hist-card">
+      <p>The year we've launched the business and the year everyone will hear about Dosto and begin to use the platform.
+      </p>
+    </div>
+  </div>
+
+</div>
+</html>

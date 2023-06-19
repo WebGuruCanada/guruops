@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HOW IT WORKS - DOSTO</title>
+  <meta charset="utf-8">
+  <link rel='icon' href='https://dosto.ca/storage/users/favicon/favicon-32x32.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');
+
+  body {
+    margin: 0 auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 100%;
+    min-width: 267px;
+  }
+
+  .dos-how-main {
+    background: #fff;
+    padding: 120px 75px 120px 75px;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .dos-how-sun,
+  .dos-how-arrow {
+    max-width: 1600px;
+    width: 100%;
+  }
+
+  img.dos-how-sun {
+    transform: translate(0px, 50px);
+    top: 0px;
+    left: 50px;
+    position: absolute;
+  }
+
+  .dos-how-arrow {
+    padding: 45px 25px 120px 0;
+  }
+
+  span.dos-how-arrow {
+    float: right;
+    text-align: right;
+  }
+
+  .dos-how-card {
+    background-color: transparent;
+    color: white;
+    border: solid 0px #252527;
+    grid-column: span 1;
+    text-align: center;
+  }
+
+  .dos-how-card img {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .dos-how-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dos-how-card p {
+    font-family: Open Sans, Montserrat, sans-serif;
+    font-size: 18px;
+    color: #000 !important;
+    text-align: center;
+    padding: 20px 45px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
+  .dos-how-header {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #252527;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 25px 25px 75px 25px;
+  }
+
+  @media (min-width: 767px) {
+    .dos-how-cards {
+      grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    }
+  }
+
+  @media (max-width: 1279px) {
+    .dos-how-card p {
+      padding: 20px 10px;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .dos-how-cards {
+      gap: 0px;
+
+    }
+  }
+
+  @media (max-width: 767px) {
+    .dos-how-main {
+      padding: 75px 35px;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .dos-how-cards {
+      max-width: 300px;
+    }
+
+    .dos-how-card p {
+      padding: 20px 20px 45px 20px;
+    }
+
+    .dos-how-arrow {
+      padding: 0px 25px 120px 0;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .dos-how-header {
+      font-size: 35px;
+    }
+  }
+
+  @media only screen and (max-width: 325px) {
+    .dos-how-header {
+      font-size: 28px;
+    }
+  }
+</style>
+
+<!-- How it works-->
+
+<div class="dos-how-main">
+  <span class="dos-how-sun"><img src="dos-img/sun.png"></span>
+  <div class="dos-how-header">How It Works</div>
+
+  <div class="dos-how-cards">
+
+    <div class="dos-how-card">
+      <img src="dos-img/account.png">
+      <p>Create an account and complete your public profile.</p>
+    </div>
+
+    <div class="dos-how-card">
+      <img src="dos-img/listings.png">
+      <p>Post your items and/or services to offer and your desired wishlist.</p>
+    </div>
+    <div class="dos-how-card">
+      <img src="dos-img/dosto.png">
+      <p>Search for what you need, find a suitable trader and Dosto.</p>
+    </div>
+  </div>
+  <span class="dos-how-arrow"><img src="dos-img/arrow.png"></span>
+</div>
+
+</html>

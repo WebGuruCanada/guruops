@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HOME 2 - DOSTO</title>
+  <meta charset="utf-8">
+  <link rel='icon' href='https://dosto.ca/storage/users/favicon/favicon-32x32.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');
+
+  body {
+    margin: 0 auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 100%;
+    min-width: 267px;
+  }
+
+  .dos-hom-2-main {
+    background: url(dos-img/dosto-back.png) no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding: 120px 75px 120px 75px;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .dos-hom-2-exp {
+    max-width: 1600px;
+    width: 100%;
+  }
+
+  .dos-hom-2-sun {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  .dos-hom-2-exp {
+    padding: 45px 25px 120px 0;
+  }
+
+  span.dos-hom-2-exp {
+    float: right;
+    text-align: right;
+  }
+
+  .dos-hom-2-card {
+    background-color: transparent;
+    color: white;
+    border: solid 0px #252527;
+    grid-column: span 1;
+    text-align: center;
+  }
+
+  .dos-hom-2-card img {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .dos-hom-2-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dos-hom-2-card p {
+    font-family: Open Sans, Montserrat, sans-serif;
+    font-size: 24px;
+    color: #000 !important;
+    text-align: center;
+    padding: 0 20px 45px 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+    max-width: 900px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .dos-hom-2-header {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #D16330;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 25px;
+  }
+
+  @media (max-width: 1279px) {
+    .dos-hom-2-card p {
+      max-width: 700px;
+    }
+
+    .dos-hom-2-header {
+      max-width: 500px;
+    margin: 0 auto 25px auto;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    span.dos-hom-2-exp {
+    float: none;
+    text-align: center;
+    display: block;
+    }
+
+    .dos-hom-2-cards {
+    margin: 0 auto 35px auto;
+}
+
+.dos-hom-2-exp {
+    padding: 0;
+}
+  }
+
+  @media (max-width: 767px) {
+    .dos-hom-2-main {
+      padding: 75px 25px;
+    }
+
+    .dos-hom-2-header {
+      font-size: 24px;
+      max-width: 400px;
+    }
+
+    .dos-hom-2-card p {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .dos-hom-2-exp {
+      padding: 0px 25px 120px 0;
+    }
+  }
+
+  /* Dosto Rainbow Button */
+
+  .rainbow-5:hover {
+          background-image: linear-gradient(to right,
+                    #df5d06,
+                    #834104 16.65%,
+                    #F68B1D 16.65%,
+                    #F68B1D 33.3%,
+                    #938a06 33.3%,
+                    #635d02 49.95%,
+                    #009E4F 49.95%,
+                    #009E4F 66.6%,
+                    #046878 66.6%,
+                    #02515d 83.25%,
+                    #732982 83.25%,
+                    #732982 100%,
+                    #E7484F 100%);
+          animation: slidebg 2s linear infinite;
+     }
+
+     @keyframes slidebg {
+          to {
+               background-position: 20vw;
+          }
+     }
+
+     .dos-hom-2-btn {
+          background-color: #F49D1B;
+          padding: 10px 30px;
+          text-align: center;
+          font-size: 1.2rem;
+          width: 10em;
+          -webkit-transition: all .3s ease-out;
+          -moz-transition: all .3s ease-out;
+          -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+          color: white;
+          text-decoration: none;
+          font-weight: normal;
+
+     }
+
+     .dos-hom-2-btn:hover {
+          background-color: #F49D1B;
+          color: white;
+          cursor: pointer;
+          border: 2px solid white;
+          font-weight: 900 !important;
+          font-size: 1.4rem;
+          -moz-transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          -o-transform: scale(1.2);
+          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+     }
+
+     .dos-hom-2-btn .fas {
+    margin: 0 0 0 10px;
+  }
+
+</style>
+
+<!-- How it works-->
+
+<div class="dos-hom-2-main">
+  <div class="dos-hom-2-header">Trust me, someone wants what you have</div>
+
+  <div class="dos-hom-2-cards">
+
+    <div class="dos-hom-2-card">
+      <p>We all have something we no longer want or use and desires for something new. Presenting Dosto, a platform created for you to actively trade and barter without monetary exchange. No longer struggle because you can’t afford it. Trust me, someone wantes what you have. Let’s build through exchange. </p>
+        <div>
+             <a href="/" class="dos-hom-2-btn rainbow-5">About Us</a>
+        </div>
+
+
+    </div>
+  </div>
+  <span class="dos-hom-2-exp"><a href="/" class="dos-hom-2-btn rainbow-5">Explore<i class="fas fa-chevron-up"></i></a></span>
+</div>
+
+</html>

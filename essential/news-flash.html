@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DOSTO NEWS LATEST EVENTS</title>
+  <meta charset="utf-8">
+  <link rel='icon' href='https://dosto.ca/storage/users/favicon/favicon-32x32.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');
+
+
+  body {
+    margin: 0 auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 100%;
+    min-width: 267px;
+  }
+
+  .dos-flash-card a,
+  .dos-flash-card a:link,
+  .dos-flash-card a:visited {
+    color: #5b7363;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition: all .3s ease-out;
+          -moz-transition: all .3s ease-out;
+          -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+}
+
+.dos-flash-card a:hover {
+    font-weight: 900;
+}
+
+  .dos-flash-main {
+    background: #fff;
+    padding: 120px 75px;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .dos-flash-main-2 {
+    background: #FFF6FA;
+    padding: 120px 75px;
+  }
+
+  .dos-flash-card {
+    background-color: transparent;
+    color: white;
+    border: solid 0px #252527;
+    grid-column: span 1;
+  }
+
+  .dos-flash-card img {
+    max-width: 400px;
+  }
+
+  .dos-flash-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dos-flash-card p {
+    font-family: Open Sans, Montserrat, sans-serif;
+    font-size: 18px;
+    color: #000 !important;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
+  .dos-flash-card h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #000 !important;
+ margin: 0px 0 10px 0;
+    font-weight: 800;
+    line-height: 1.5em;
+    text-align: left;
+    max-width: 270px;
+  }
+
+  .dos-flash-card h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color:#5A7363 !important;
+ margin: 0 0 10px 0;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+    max-width: 270px;
+  }
+
+  .dos-flash-header {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #252527;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -122px;
+  }
+
+  .dos-flash-header-2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #ffedcf;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+  }
+
+  .dos-flash-header-sm {
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #252527;
+    line-height: 1.1em;
+    text-align: center;
+    padding: 10px 0 75px 0;
+    letter-spacing: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 4000px) {
+    .dos-shw {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 999px) {
+    .dos-flash-cards {
+      grid-template-columns: repeat(1, 1fr 3fr);
+      gap: 75px;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .dos-flash-cards {
+      gap: 0px;
+    }
+    .dos-flash-card h2 {
+ margin: 30px 0 10px 0;
+  }
+
+    .dos-flash-card img {
+      max-width: 100%;
+    }
+
+    .dos-flash-header-sm {
+      padding-bottom: 0px;
+    }
+
+    .dos-rmv {
+      display: none !important;
+    }
+
+    .dos-shw {
+      display: block !important;
+    }
+
+    .dos-flash-header-2 {
+      font-size: 90px;
+    }
+
+    .dos-flash-header {
+      margin-top: -95px;
+    }
+
+    .dos-flash-card img {
+      padding-top: 45px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .dos-flash-main {
+      padding: 75px 35px;
+    }
+
+    .dos-flash-header {
+      margin-top: -80px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .dos-flash-header-2 {
+      font-size: 70px;
+      letter-spacing: 0;
+    }
+    .dos-flash-header-sm {
+      letter-spacing: 0.75rem;
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .dos-flash-card p {
+      padding: 10px 0px !important;
+    }
+
+
+
+    .dos-flash-header-2 {
+      font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .dos-flash-header-2 {
+      font-size: 40px;
+      letter-spacing: 7px;
+    }
+
+    .dos-flash-header {
+      margin-top: -65px;
+    }
+
+    .dos-flash-header-sm {
+      letter-spacing: 0.25rem;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+    .dos-flash-header-2 {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .dos-flash-header {
+      font-size: 35px;
+    }
+  }
+
+  @media only screen and (max-width: 336px) {
+    .dos-flash-header-2 {
+      letter-spacing: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 325px) {
+    .dos-flash-header {
+      font-size: 28px;
+    }
+
+    .dos-flash-header-sm {
+      letter-spacing: 0.25rem;
+    }
+  }
+
+  @media only screen and (max-width: 319px) {
+    .dos-flash-header-2 {
+      letter-spacing: 0;
+    }
+  }
+</style>
+
+<!-- News Flash-->
+
+<div class="dos-flash-main">
+
+  <div class="dos-flash-header-2">newsflash</div>
+  <div class="dos-flash-header">News</div>
+
+  <div class="dos-flash-header-sm">Latest Events</div>
+
+  <div class="dos-flash-cards">
+
+    <div class="dos-flash-card">
+      <img src="dos-img/news-flash.jpg" class="dos-rmv">
+      <img src="dos-img/news-flash-2.jpg" class="dos-shw">
+    </div>
+
+    <div class="dos-flash-card">
+      <h2>Launch Event</h2>
+      <h3>TBA</h3>
+      <p>Get ready to experience the next level of innovation with the highly-anticipated launch of Dosto, the newest player in the game-changing world of SaAs. With a team of experts dedicated to pushing the boundaries of what's possible, Dosto is poised to revolutionize the industry with cutting-edge technology and unparalleled expertise.
+      </p>
+
+      <h2>Dosto Expo Event</h2>
+      <h3>TBA</h3>
+      <p>Get ready to trade your way to success at the ultimate bartering event! Join us for an unforgettable experience as we bring together a community of savvy traders for a day of high-stakes negotiation and thrilling exchange. Whether you're looking to offload unused items or score amazing deals on new treasures, this event has something for everyone.
+      </p>
+
+<div><a href="/">More...</a></div>
+
+    </div>
+
+
+
+  </div>
+</div>
+</html>

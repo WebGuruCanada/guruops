@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>DOSTO FOOTER</title>
+     <meta charset="utf-8">
+     <link rel='icon' href='/img/favicon.jpg' type='image/x-icon' />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<style>
+     body {
+          margin: 0 auto;
+          font-family: Montserrat, Arial, Helvetica, sans-serif;
+          background-color: white;
+          max-width: 100%;
+          min-width: 267px;
+     }
+
+     p {
+          font-size: 1.3rem;
+     }
+
+     /* FOOTER COLUMNS -  WHITE BACKGROUND */
+
+     .rainbow-5:hover {
+          background-image: linear-gradient(to right,
+                    #df5d06,
+                    #834104 16.65%,
+                    #F68B1D 16.65%,
+                    #F68B1D 33.3%,
+                    #938a06 33.3%,
+                    #635d02 49.95%,
+                    #009E4F 49.95%,
+                    #009E4F 66.6%,
+                    #046878 66.6%,
+                    #02515d 83.25%,
+                    #732982 83.25%,
+                    #732982 100%,
+                    #E7484F 100%);
+          animation: slidebg 2s linear infinite;
+     }
+
+     @keyframes slidebg {
+          to {
+               background-position: 20vw;
+          }
+     }
+
+     .dos-ftr-1 {
+          max-width: 10em;
+          line-height: 1.4em;
+          font-size: 2.2rem;
+     }
+
+     .dos-ftr-wh-btn {
+          border: 2px solid black;
+          padding: 20px 50px;
+          text-align: center;
+          font-size: 1rem;
+          text-transform: uppercase;
+          width: 10em;
+          -webkit-transition: all .3s ease-out;
+          -moz-transition: all .3s ease-out;
+          -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+          color: black;
+          text-decoration: none;
+     }
+
+     .dos-ftr-wh-btn:hover {
+          background-color: #F49D1B;
+          color: white;
+          cursor: pointer;
+          border: 2px solid white;
+          font-weight: 900;
+          font-size: 1.4rem;
+          -moz-transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          -o-transform: scale(1.2);
+          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+     }
+
+     .dos-btn-flex {
+          display: flex;
+          align-items: center;
+     }
+
+     .dos-ftr-wh {
+          background-color: white;
+          padding: 75px;
+          color: black;
+          font-size: 32px;
+          line-height: 1em;
+          font-weight: 600;
+          max-width: 1280px;
+          margin: 0 auto;
+     }
+
+     .dos-fr-wh-grid {
+          display: grid;
+          grid-template-columns: 3fr auto;
+          grid-gap: 5px;
+     }
+
+     div.dos-row-ftr-wh {
+          display: flex;
+          align-items: center;
+     }
+
+     @media only screen and (max-width: 767px) {
+          .dos-ftr-wh {
+               padding: 50px;
+          }
+
+          .dos-ftr-1 {
+
+               font-size: 1.75rem;
+          }
+     }
+
+     @media only screen and (max-width: 620px) {
+
+          .dos-fr-wh-grid {
+               grid-gap: 30px;
+          }
+
+
+          .dos-col-ftr-wh-lt {
+               flex: none;
+          }
+
+          .dos-ftr-wh-btn {
+               padding: 14px 26px;
+          }
+
+          .dos-ftr-1 {
+               font-size: 1.5rem;
+          }
+     }
+
+     @media only screen and (max-width: 479px) {
+          .dos-fr-wh-grid {
+               grid-template-columns: 1fr;
+          }
+
+          .dos-ftr-1 {
+               max-width: 100%;
+               text-align: center;
+          }
+
+          .dos-btn-flex {
+               display: block;
+               text-align: center;
+          }
+     }
+
+     /* FOOTER COLUMNS -  ORANGE BACKGROUND */
+
+     .dos-ftr-title {
+          font-size: 1.3rem;
+          font-weight: 900;
+          margin-bottom: 1.2rem;
+     }
+
+     .dos-ftr {
+          background-color: #F49D1B !important;
+          padding: 75px;
+          color: white;
+          font-size: 1.1rem;
+          line-height: 1.5;
+          font-weight: 300;
+     }
+
+     .dos-row-ftr {
+          max-width: 1280px;
+          margin: 0 auto;
+     }
+
+     .dos-ftr a:link {
+          color: white;
+          text-decoration: none;
+     }
+
+     .dos-ftr a:hover {
+          color: white;
+          text-decoration: underline;
+     }
+
+     .dos-ftr a:visited {
+          color: white;
+          text-decoration: none;
+     }
+
+     .dos-gap {
+          margin-top: 5px;
+     }
+
+     .dos-adr {
+          max-width: 10em;
+          line-height: 1.2;
+     }
+
+     .dos-scale {
+          -webkit-transition: all .3s ease-out;
+          -moz-transition: all .3s ease-out;
+          -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+     }
+
+     .dos-scale:hover {
+          -moz-transform: scale(1.5);
+          -webkit-transform: scale(1.5);
+          -o-transform: scale(1.5);
+          transform: scale(1.5);
+          -ms-transform: scale(1.5);
+     }
+
+     .dos-line {
+          background-color: white;
+          width: 100%;
+          height: 1px;
+          border-top: 0px dotted black;
+          line-height: 0%;
+          margin: 75px 0 25px 0;
+     }
+
+     .dos-syn {
+
+          line-height: 1.5em;
+          font-size: 0.75rem;
+          font-weight: 300;
+          max-width: 1280px;
+          margin: 0 auto;
+     }
+
+     .dos-syn-rt {
+          text-align: right;
+     }
+
+     .dos-link-ftr {
+          line-height: 1.75em;
+          font-size: 1em;
+          text-align: left;
+     }
+
+     .dos-font .fab {
+          font-size: 1.2em;
+          margin-right: 10px;
+     }
+
+     .dos-fr-grid {
+          display: grid;
+          grid-template-columns: 1.6fr 1fr 1fr 1fr;
+          grid-gap: 40px;
+     }
+
+     .dos-fr-grid p {
+          max-width: 20em;
+          font-size: 1.1rem;
+          line-height: 1.5;
+          font-weight: 300;
+     }
+
+
+     .dos-fr-syn-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 5px;
+     }
+
+
+     @media only screen and (max-width: 1000px) {
+          .dos-fr-grid {
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+          }
+
+          .dos-line {
+               margin: 25px 0 25px 0;
+          }
+     }
+
+     @media only screen and (max-width: 767px) {
+          .dos-fr-syn-grid {
+               grid-template-columns: 1fr;
+          }
+
+          .dos-syn-rt {
+               text-align: left;
+          }
+     }
+
+     @media only screen and (max-width: 620px) {
+          .dos-fr-grid {
+               display: grid;
+               grid-template-columns: 2fr;
+          }
+
+          .dos-fr-grid p {
+               margin: 20px auto 40px auto;
+               text-align: center;
+          }
+
+          .dos-font {
+               text-align: center;
+          }
+
+          .dos-link-ftr {
+               text-align: center;
+          }
+
+          .dos-img-ftr {
+               text-align: center;
+          }
+
+          .dos-adr {
+               max-width: 100%;
+          }
+
+          .dos-ftr {
+               padding: 75px 25px;
+          }
+
+          .dos-syn {
+               margin: 0;
+               text-align: center;
+          }
+
+          .dos-syn-rt {
+               text-align: center;
+          }
+     }
+</style>
+
+<!-- FOOTER WHITE BACNGROUND-->
+
+<div class="dos-ftr-wh">
+     <div class="dos-fr-wh-grid">
+          <div class="dos-ftr-1">Need help starting your journey?</div>
+
+          <div class="dos-btn-flex">
+               <div>
+                    <a href="/" class="dos-ftr-wh-btn rainbow-5">Contact Us</a>
+               </div>
+          </div>
+     </div>
+</div>
+
+<!-- FOOTER ORANGE BACNGROUND-->
+
+<div class="dos-ftr">
+     <div class="dos-row-ftr">
+          <div class="dos-fr-grid ">
+               <div>
+                    <div class="dos-img-ftr"><img src="https://dosto.ca/img/white-logo.png" width="100px"></div>
+                    <p>
+                         A platform for members to trade products and or services without the exchange of funds. It’s
+                         truly
+                         revolutionary.
+                    </p>
+                    <div class="dos-font">
+                         <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram dos-scale"></i></a>
+                         <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter dos-scale"></i></a>
+                         <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook dos-scale"></i></a>
+                         <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube dos-scale"></i></a>
+                         <a href="tel:+1.440.543.1010"><i class="fab fa-pinterest dos-scale"></i></a>
+                         <a href="/get-a-quote-or-more-information/"><i class="fas fa-envelope dos-scale"></i></a>
+                    </div>
+               </div>
+               <div>
+                    <div class="dos-link-ftr">
+                         <div class="dos-ftr-title">Quick Links</div>
+                         <div><a href="/">Home
+                              </a></div>
+                         <div><a href="/">Join Us</a></div>
+                         <div><a href="/">Membership</a></div>
+                         <div><a href="/">Advertise</a></div>
+                         <div><a href="/">About</a></div>
+                         <div><a href="/">Blog</a></div>
+                    </div>
+               </div>
+               <div>
+                    <div class="dos-link-ftr">
+                         <div class="dos-ftr-title">Support</div>
+                         <div><a href="/">Terms of Use
+                              </a></div>
+                         <div><a href="/">Privacy Policy</a></div>
+                         <div><a href="/">Posting Policy</a></div>
+                         <div><a href="/">Help Desk</a></div>
+                         <div><a href="/">Accessibility</a></div>
+                         <div><a href="/">AdChoices</a></div>
+                    </div>
+               </div>
+               <div>
+                    <div class="dos-link-ftr">
+                         <div class="dos-ftr-title">Contact Us</div>
+
+                         <div class="dos-adr">Brampton, Ontario
+                              Canada</div>
+                         <div class="dos-gap"><a href="mailto:name@email.com">hello@reallygreatsite.com</a></div>
+                         <div class="dos-gap"><a href="tel:+1.123.456.7891">+123-456-7890</a></div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- SYNDICATION-->
+
+     <div class="dos-syn">
+          <div class="dos-line"></div>
+          <div class="dos-fr-syn-grid">
+               <div>&copy; 2023 Arowwai Industries. All Rights Reserved.</div>
+               <div class="dos-syn-rt"><a href="/">Terms of Use</a> |
+                    <a href="/">Privacy</a> |
+                    <a href="/">Environmental Policy</a>
+               </div>
+          </div>
+     </div>
+
+</html>
